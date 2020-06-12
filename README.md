@@ -6,9 +6,9 @@
 Construir um site do zero com HTML5 e CSS3 em apenas 1 dia.
 
 #### Informações Adicionais:
-**Tema:** Alguma forma de agilizar um setor especifico comum entre classes sociais.
-**Grupo de 4 Pessoas:** Um Profissional de Arquitetura, Um Iniciante em Desenvolvimento(Eu), Um Engenheiro Civil e Um Analista de Dados.
-**Tempo para Desenvolver:** Aproximadamente 4h á 6h.
+- **Tema:** Alguma forma de agilizar um setor especifico comum entre classes sociais.
+- **Grupo de 4 Pessoas:** Um Profissional de Arquitetura, Um Iniciante em Desenvolvimento(Eu), Um Engenheiro Civil e Um Analista de Dados.
+- **Tempo para Desenvolver:** Aproximadamente 4h á 6h.
 
 ### Projeto
 **Páginas/Indices**
