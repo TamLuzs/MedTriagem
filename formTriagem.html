@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>MedTriagem</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+
+    <header>
+        <div id='container' class="header-logo">
+            <img src="img/logo.PNG">
+        </div>
+
+        <nav class="nav-header">
+
+            <a class="nav-link" href='index.html'> Home </a>
+            <a class="nav-link" href='formTriagem.html'> Formulario de Triagem </a>
+            <a class="nav-link" href='contato.html'> Contato </a>
+            <script src="js/script.js"></script>
+
+        </nav>
+
+    </header>
+
+    <section class="section-form">
+
+        <form>
+
+            <fieldset>
+                <legend>Dados Pessoas: </legend>
+
+                <label for="input-nomeCompleto"> Nome Completo
+                    <input id="input-nomeCompleto" type="text" required>
+                </label>
+
+                <br>
+
+                <label for="input-nascimento"> Data de Nascimento
+                    <input id="input-nascimento" type="date" required>
+                </label>
+
+                <br>
+
+                <label for="input-numCarterinha"> Numero da Carterinha do SUS ou Convenio
+                    <input id="input-numCarterinha" type="text" maxlength="18" required>
+                </label>
+
+                <br>
+
+                <label for="input-cpf"> CPF
+                    <input id="input-cpf" type="text" maxlength="12" required>
+                </label>
+
+                <br>
+
+                <label for="input-email"> e-mail
+                    <input id="input-email" pattern=".+@gmail.com" type="email" required>
+                </label>
+
+                <br>
+
+                <label for="input-tel"> Telefone
+                    <input id="input-tel" type="phone" maxlength="12" required>
+                </label>
+
+                <br>
+
+                <label for="input-cep"> CEP
+                    <input id="input-cep" type="number" maxlength="10" required>
+                </label>
+
+                <br>
+
+                <label for="input-endereco"> Endereço
+                    <input id="input-endereco" type="text" max="100" readonly>
+                </label>
+
+                <br>
+
+                <label for="input-complemento"> Complemento
+                    <input id="input-complemento" type="text" max="20" readonly>
+                </label>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+
+                <legend> Dados Tecnicos: </legend>
+
+                <label for="textarea-remedioControlado"> Faz utilização de algum remedio controlado ? Quais ?
+                    <br>
+                    <textarea id="textarea-remedioControlado" cols="40" rows="3"> </textarea>
+                </label>
+
+                <br>
+
+                <label for="textarea-alergia"> Tem algum tipo de alergia ?
+                    <br>
+                    <textarea id="textarea-alergia" cols="40" rows="3"> </textarea>
+                </label>
+
+                <br>
+
+                <label for="textarea-motivoIda"> Motivo ou Sintoma ?
+                    <br>
+                    <textarea id="textarea-motivoIda" cols="40" rows="3" required> </textarea>
+                </label>
+
+            </fieldset>
+
+            <button class="btn-enviar" onclick="Imprimir()"> Imprimir </button>
+
+        </form>
+
+    </section>
+
+    <footer class="footer-background">
+        <p> 2019 &copy; Todos os direitos reservados. </p>
+        <p> Veja informações dos <a href="#"> desevolvedores </a></p>
+    </footer>
+
+</body>
+
+</html>
