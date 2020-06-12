@@ -1,6 +1,6 @@
 # Site - MedTriagem
+![teste](https://user-images.githubusercontent.com/48417347/84451200-b98e4700-ac28-11ea-98ad-fa7d5f85bcb7.jpg)
 ------------
-<!-- IMAGEM -->
 
 ### Objetivo:
 Construir um site do zero com HTML5 e CSS3 em apenas 1 dia.
