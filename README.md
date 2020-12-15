@@ -21,12 +21,15 @@ Identificamos que a maior parte de reclamação ao ir no hospital é devido à d
     <img src="https://github.com/TamLuzs/MedTriagem/blob/master/layout/home.png">
 </p>
 
+<br/>
+
 <p align="center">
     <img src="https://github.com/TamLuzs/MedTriagem/blob/master/layout/form.png">
 </p>
+<br/>
 
 <p align="center">
-    <img src="https://github.com/TamLuzs/MedTriagem/blob/master/layout/contato.png">
+    <img src="https://github.com/TamLuzs/MedTriagem/blob/master/layout/contato.PNG">
 </p>
 
 ## 📦 Ferramentas/Tecnologias Utilizadas:
